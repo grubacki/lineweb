@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-image:url(../images/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center top;
+	background-size:cover;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	margin:0.3em 0 0.5em;
+}
+
+p {
+	margin:1em 0;
+}
+
+h1 { font-size:32px;}
+h2 { font-size:26px;}
+h3 { font-size:24px;}
+h4 { font-size:22px;}
+h5 { font-size:20px;}
+h6 { font-size:18px;}
+
+a:link,
+a:visited {
+	color:#C51417;
+	text-decoration:none;
+}
+a:hover {
+	color:#B66B0D;
+	text-decoration:underline;
+}
+a:active {
+	color:#777777;
+}
+
+
+img {
+	vertical-align:bottom;
+}
+
+#wrapper {
+	width:960px;
+	background-color:rgba(255,255,255,0.95);
+	padding:15px;
+	margin:20px auto 50px;
+	box-shadow:0px 2px 6px rgba(0,0,0,0.2);
+	border-radius:4px;
+}
+
+#header {
+	background-color:#C51417;
+	overflow:hidden;
+	padding:10px;
+	margin:0 0 10px;
+}
+
+#logo {
+	float:left;
+}
+
+#slogan {
+	float:right;
+	font-size:22px;
+	font-style:italic;
+	color:#FFFFFF;
+}
+
+#slogan p {	margin:0; }
+
+#nav {
+	height:40px;
+	background:#333333;
+	margin:0 0 10px;
+}
+
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#nav ul li {
+	float:left;
+	position:relative;
+}
+
+#nav ul li a {
+	padding:10px 14px;
+	height:20px;
+	display:block;
+	text-decoration:none;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#FFFFFF;
+}
+#nav ul li a:hover {
+	background:#C51417;
+}
+#nav ul li a:active {
+	color:#000000;
+	background:#777777;
+}
+
+#nav ul li ul {
+	background:#444444;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:180px;
+	display:none; /* u startu */
+}
+
+#nav ul li:hover > ul {
+	display:block; /* padajuci */
+}
+
+
+#nav ul li ul li {
+	float:none;
+}
+
+#nav ul li ul li ul {
+	top:0;
+	left:100%;
+}
+
+
+
+
+
+
+
+#social {
+	float:right;
+	margin:3px 10px 0 0;
+}
+
+#social a:link,
+#social a:visited {
+	color:#FFFFFF;
+	font-size:24px;
+}
+#social a:hover {
+	color:#C51417;
+}
+#social a:active {
+	color:#777777;
+}
+
+
+
+
+#main {
+	float:left;
+	width:700px;
+	margin:0 0 10px;
+}
+#sidebar {
+	float:right;
+	width:240px;
+	margin:0 0 10px;
+}
+
+#sidebar .block {
+	margin:0 0 30px;
+}
+
+#sidebar h2,
+#sidebar h3 {
+	background:#BBBBBB;
+	color:#FFFFFF;
+	padding:5px;
+}
+
+#footer {
+	background:#333333;
+	clear:both;
+	padding:10px;
+	text-align:center;
+	color:#838383;
+}
+
+#footer p {
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
